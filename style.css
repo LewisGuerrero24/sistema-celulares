@@ -1,0 +1,71 @@
+:root{
+    --primario:#e15244;
+    --secundario:#3a7b50;
+    --terciario:#f8a348;
+    --complemento:#fff7bc;
+    --complemento2:#00686c;
+}
+body{
+    background-color:var(--complemento) ;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.grid .registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.registro{
+    padding: 30px;
+}
+.registro form input{
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.mod1{
+    background-color:var(--primario);
+}
+
+.mod2{
+    background-color:var(--secundario);
+}
+
+button{
+    border: none;
+    background-color: #f8a348;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.tablas{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#tabla{
+    background-color:var(--terciario) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+#tabla2{
+    background-color: var(--complemento2);
+}

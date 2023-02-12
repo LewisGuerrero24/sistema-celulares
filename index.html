@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lewis Guerrero</title>
+</head>
+<body>
+  <div class="grid"> 
+   <div class="registro mod1">
+    <h1>Registrar Celulares</h1>
+    <p>Marcas: Motorola, Iphone, xiaomi, huawei, oppo, samsung</p>
+    <form action="" id="formulario" >
+       
+            <label for=""> Nombre de la Marca: </label>
+            <input type="text" id="marca">
+        
+       
+       
+            <label for="">Modelo: </label>
+            <input type="text" id="modelo">
+        
+       
+       
+            <label for="">Cantidad: </label>
+                <input type="number" id="cantidad">
+        
+            <label for="">Precio Venta:</label>
+            <input type="number" id="precio">
+       
+
+        <button type="button" onclick="registrar()">Registrar</button>
+       
+    </form>
+</div> 
+
+    <div class="registro mod2">
+        <h1>Registro de Ventas</h1>
+        <p>Marcas: Motorola, Iphone, xiaomi, huawei, oppo, samsung</p>
+        <form action="" id="formulario2">
+            <label for=""> Nombre de la Marca: </label>
+            <input type="text" id="marca2">
+            <label for="">Modelo: </label>
+            <input type="text" id="modelo2">
+            <label for="">Cantidad: </label>
+            <input type="number" id="cantidad2">
+            <label for="">Total pagar:</label>
+            <label for=""  id="tpagar"> </label>
+            <button type="button" onclick="ventas()">venta</button>
+        </form>
+    </div> 
+
+   
+</div> 
+<div class="tablas">
+    <button  type="button" onclick="inventario()">Actualizar Inventario</button>
+    <button  type="button" onclick="caja()">Actualizar Recaudo</button>
+ </div>   
+ 
+<div class="tablas">
+ 
+
+<div id="tabla">
+    
+</div>
+
+
+<div id="tabla2">
+    
+</div>
+
+
+
+</div>
+    <script type="text/javascript" src="logica.js"></script>
+</body>
+</html>
